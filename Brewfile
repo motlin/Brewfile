@@ -55,8 +55,6 @@ brew "usage"
 brew "mise"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils", link: false
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
 # Parallel gzip
@@ -95,8 +93,6 @@ cask "jordanbaird-ice"
 cask "keycastr"
 # Quick Look plug-in that renders source code with syntax highlighting
 cask "qlcolorcode"
-# Display image info and preview unsupported formats in QuickLook
-cask "qlimagesize"
 # Quick Look generator for Markdown files
 cask "qlmarkdown"
 # Quick Look plugin for plaintext files without an extension

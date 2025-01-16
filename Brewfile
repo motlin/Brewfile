@@ -130,6 +130,8 @@ cask "jetbrains-toolbox"
 cask "jordanbaird-ice"
 # Open-source keystroke visualiser
 cask "keycastr"
+# Animated screen capture application
+cask "licecap"
 # Host-based application firewall
 cask "little-snitch"
 # File system integration

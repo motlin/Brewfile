@@ -101,8 +101,6 @@ brew "render-oss/render/render"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
-# Data backup and storage service
-cask "backblaze"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices

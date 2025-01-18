@@ -109,6 +109,8 @@ cask "daisydisk"
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
+# Find and remove unwanted duplicate files and folders
+cask "duplicate-file-finder"
 cask "font-fira-mono-nerd-font"
 cask "font-hack"
 cask "font-hack-nerd-font"

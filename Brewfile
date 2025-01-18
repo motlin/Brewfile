@@ -103,6 +103,8 @@ brew "render-oss/render/render"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# Disk space visualiser
+cask "daisydisk"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices

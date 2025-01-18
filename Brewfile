@@ -89,6 +89,8 @@ brew "virtualenv"
 brew "wget"
 # Linter for YAML files
 brew "yamllint"
+# JavaScript package manager
+brew "yarn"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)

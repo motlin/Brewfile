@@ -114,6 +114,8 @@ cask "font-meslo-lg-nerd-font"
 cask "font-source-code-pro"
 # Web browser
 cask "google-chrome"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "google-cloud-sdk"
 # Graphically shows disk usage within a file system
 cask "grandperspective"
 # Automated organisation

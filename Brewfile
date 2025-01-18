@@ -21,6 +21,8 @@ brew "exiftool"
 brew "eza"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
+# Firebase command-line tools
+brew "firebase-cli"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool

@@ -111,6 +111,8 @@ cask "discord"
 cask "docker"
 # Find and remove unwanted duplicate files and folders
 cask "duplicate-file-finder"
+# Calendar software
+cask "fantastical"
 cask "font-fira-mono-nerd-font"
 cask "font-hack"
 cask "font-hack-nerd-font"

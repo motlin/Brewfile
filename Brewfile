@@ -93,6 +93,8 @@ brew "wget"
 brew "yamllint"
 # JavaScript package manager
 brew "yarn"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)

@@ -144,6 +144,8 @@ cask "keycastr"
 cask "licecap"
 # Host-based application firewall
 cask "little-snitch"
+# Software for Logitech devices
+cask "logi-options+"
 # File system integration
 cask "macfuse"
 # Open-source software for live streaming and screen recording

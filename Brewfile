@@ -7,6 +7,8 @@ tap "mvndaemon/mvnd"
 tap "render-oss/render"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -19,6 +21,8 @@ brew "dos2unix"
 brew "exiftool"
 # Modern, maintained replacement for ls
 brew "eza"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # Firebase command-line tools
@@ -33,8 +37,6 @@ brew "git"
 brew "git-absorb"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Quickly rewrite git repository history
 brew "git-filter-repo"
 # Command-line interface for Hetzner Cloud

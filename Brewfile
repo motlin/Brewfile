@@ -107,6 +107,8 @@ brew "render-oss/render/render"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# 3D model slicing software for 3D printers, maintained by Bambu Lab
+cask "bambu-studio"
 # Disk space visualiser
 cask "daisydisk"
 # Voice and text chat software
@@ -148,8 +150,6 @@ cask "keycastr"
 cask "licecap"
 # Host-based application firewall
 cask "little-snitch"
-# Software for Logitech devices
-cask "logi-options+"
 # File system integration
 cask "macfuse"
 # Open-source software for live streaming and screen recording

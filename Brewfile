@@ -178,6 +178,8 @@ cask "spotify"
 cask "stats"
 # Video game digital distribution service
 cask "steam"
+# Customise mouse buttons, wheels and cursor speed
+cask "steermouse"
 # Web browser focusing on security
 cask "tor-browser"
 # Disk encryption software focusing on security based on TrueCrypt

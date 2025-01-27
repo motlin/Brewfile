@@ -51,8 +51,6 @@ brew "just"
 brew "less"
 # Access large language models from the command-line
 brew "llm"
-# CLI for Node.js style checker and lint tool for Markdown files
-brew "markdownlint-cli"
 # Mac App Store command-line interface
 brew "mas"
 # Tool for working with usage-spec CLIs

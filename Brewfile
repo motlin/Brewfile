@@ -5,14 +5,18 @@ tap "claui/whence"
 tap "homebrew/bundle"
 tap "mvndaemon/mvnd"
 tap "render-oss/render"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Duplicate file utility
+brew "czkawka"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Convert text between DOS, UNIX, and Mac formats
@@ -21,8 +25,6 @@ brew "dos2unix"
 brew "exiftool"
 # Modern, maintained replacement for ls
 brew "eza"
-# Play, record, convert, and stream audio and video
-brew "ffmpeg"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # Firebase command-line tools

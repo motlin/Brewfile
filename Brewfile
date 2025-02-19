@@ -51,8 +51,6 @@ brew "jq"
 brew "just"
 # Pager program similar to more
 brew "less"
-# Access large language models from the command-line
-brew "llm"
 # Mac App Store command-line interface
 brew "mas"
 # Tool for working with usage-spec CLIs
@@ -85,6 +83,8 @@ brew "tmux"
 brew "trash", link: true
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Tool for creating isolated virtual python environments
@@ -152,6 +152,8 @@ cask "licecap"
 cask "little-snitch"
 # File system integration
 cask "macfuse"
+# Open-source music notation software
+cask "musescore"
 # Open-source software for live streaming and screen recording
 cask "obs"
 # Quick Look plug-in that renders source code with syntax highlighting

@@ -9,6 +9,8 @@ tap "render-oss/render"
 brew "python@3.13"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Cross-platform make
+brew "cmake"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -57,6 +59,8 @@ brew "mas"
 brew "usage"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
+# CLI tool for saving complete web pages as a single HTML file
+brew "monolith"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils", link: false
 # 7-Zip (high compression file archiver) implementation
@@ -196,5 +200,6 @@ mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
 mas "Name Mangler", id: 603637384
 mas "Things", id: 904280696
+mas "Windows App", id: 1295203466
 vscode "github.copilot"
 vscode "github.copilot-chat"

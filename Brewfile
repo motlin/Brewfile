@@ -7,8 +7,6 @@ tap "mvndaemon/mvnd"
 tap "render-oss/render"
 # Run your GitHub Actions locally
 brew "act"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Cross-platform make
@@ -17,6 +15,8 @@ brew "cmake"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Duplicate file utility
@@ -144,6 +144,8 @@ cask "grandperspective"
 cask "hazel"
 # Free and open-source media player
 cask "iina"
+# iPhone management application
+cask "imazing"
 # Java IDE by JetBrains
 cask "intellij-idea"
 # Terminal emulator as alternative to Apple's Terminal app

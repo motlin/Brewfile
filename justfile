@@ -16,9 +16,10 @@ cleanup:
 
 # Update Homebrew and upgrade all packages
 upgrade:
-    brew update
-    brew upgrade
-    brew cleanup
+    brew update --quiet
+    brew outdated
+    brew upgrade --quiet
+    brew cleanup --quiet
     uv tool upgrade --all
 
 # Show outdated packages

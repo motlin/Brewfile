@@ -9,6 +9,8 @@ tap "render-oss/render"
 brew "act"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
 # Cross-platform make
 brew "cmake"
 # GNU File, Shell, and Text utilities
@@ -204,7 +206,7 @@ mas "AutoMounter", id: 1160435653
 mas "Duplicate File Finder", id: 1032755628
 mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
-mas "Name Mangler", id: 603637384
+mas "Name Mangler 3", id: 603637384
 mas "Things", id: 904280696
 mas "Windows App", id: 1295203466
 vscode "github.copilot"

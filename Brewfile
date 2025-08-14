@@ -7,18 +7,24 @@ tap "mvndaemon/mvnd"
 tap "render-oss/render"
 # Run your GitHub Actions locally
 brew "act"
+# Declarative CLI Version manager
+brew "aqua"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
+# Record and share terminal sessions
+brew "asciinema"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Cloudflare Tunnel client (formerly Argo Tunnel)
 brew "cloudflared"
 # Cross-platform make
 brew "cmake"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Duplicate file utility
@@ -49,10 +55,14 @@ brew "git-absorb"
 brew "git-delta"
 # Quickly rewrite git repository history
 brew "git-filter-repo"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
 # Command-line interface for Hetzner Cloud
 brew "hcloud"
 # Improved top (interactive process viewer)
 brew "htop"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Handy way to save and run project-specific commands
@@ -73,10 +83,14 @@ brew "moreutils", link: false
 brew "p7zip"
 # Parallel gzip
 brew "pigz"
+# Fast, disk space efficient package manager
+brew "pnpm"
 # Show ps output as a tree
 brew "pstree"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Utility that provides fast incremental file transfer
@@ -85,8 +99,14 @@ brew "rsync"
 brew "scc"
 # Terminal multiplexer with VT100/ANSI terminal emulation
 brew "screen"
+# Command-line utility to interact with Sentry
+brew "sentry-cli"
 # Autoformat shell script source code
 brew "shfmt"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Feature-rich console based todo list manager
+brew "task"
 # Terminal multiplexer
 brew "tmux"
 # CLI tool that moves files or folder to the trash
@@ -124,7 +144,7 @@ cask "daisydisk"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
-cask "docker"
+cask "docker-desktop"
 # Find and remove unwanted duplicate files and folders
 cask "duplicate-file-finder"
 # Calendar software
@@ -136,10 +156,10 @@ cask "font-inconsolata-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-meslo-lg-nerd-font"
 cask "font-source-code-pro"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
 # Web browser
 cask "google-chrome"
-# Set of tools to manage resources and applications hosted on Google Cloud
-cask "google-cloud-sdk"
 # Graphically shows disk usage within a file system
 cask "grandperspective"
 # Automated organisation
@@ -209,5 +229,6 @@ mas "iA Writer", id: 775737590
 mas "Name Mangler 3", id: 603637384
 mas "Things", id: 904280696
 mas "Windows App", id: 1295203466
+mas "Xcode", id: 497799835
 vscode "github.copilot"
 vscode "github.copilot-chat"

@@ -1,16 +1,15 @@
-# https://medium.com/@satorusasozaki/automate-mac-os-x-configuration-by-using-brewfile-58a78ce5cc53
-cask_args appdir: '/Applications'
 tap "abhinav/tap"
 tap "claui/whence"
+tap "cloudflare/cloudflare"
 tap "homebrew/bundle"
+tap "mattt/tap"
 tap "mvndaemon/mvnd"
 tap "render-oss/render"
+tap "suzuki-shunsuke/cmdx"
 # Run your GitHub Actions locally
 brew "act"
 # Declarative CLI Version manager
 brew "aqua"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Record and share terminal sessions
 brew "asciinema"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -25,16 +24,22 @@ brew "cocoapods"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Duplicate file utility
 brew "czkawka"
+# Open source multi-tool for exploring and publishing data
+brew "datasette"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
 # Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
+# Select default apps for documents and URL schemes on macOS
+brew "duti"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
 # Modern, maintained replacement for ls
@@ -43,6 +48,8 @@ brew "eza"
 brew "findutils"
 # Firebase command-line tools
 brew "firebase-cli"
+# CLI application for interacting with a Cloudflare account
+brew "flarectl"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
@@ -55,13 +62,13 @@ brew "git-absorb"
 brew "git-delta"
 # Quickly rewrite git repository history
 brew "git-filter-repo"
-# GNU Pretty Good Privacy (PGP) package
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Command-line interface for Hetzner Cloud
 brew "hcloud"
 # Improved top (interactive process viewer)
 brew "htop"
-# Tools and libraries to manipulate images in many formats
+# Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
@@ -83,6 +90,8 @@ brew "moreutils", link: false
 brew "p7zip"
 # Parallel gzip
 brew "pigz"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Show ps output as a tree
@@ -103,8 +112,6 @@ brew "screen"
 brew "sentry-cli"
 # Autoformat shell script source code
 brew "shfmt"
-# Cross-shell prompt for astronauts
-brew "starship"
 # Feature-rich console based todo list manager
 brew "task"
 # Terminal multiplexer
@@ -131,16 +138,18 @@ brew "yt-dlp"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Command-line interface for Render
-brew "render-oss/render/render"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
 # 3D model slicing software for 3D printers, maintained by Bambu Lab
 cask "bambu-studio"
+# Virtual Audio Driver
+cask "blackhole-2ch"
 # Disk space visualiser
 cask "daisydisk"
+# Browser for SQLite databases
+cask "db-browser-for-sqlite"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
@@ -168,6 +177,8 @@ cask "hazel"
 cask "iina"
 # iPhone management application
 cask "imazing"
+# MCP server app for your application
+cask "mattt/tap/imcp"
 # Java IDE by JetBrains
 cask "intellij-idea"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -232,3 +243,5 @@ mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
 vscode "github.copilot"
 vscode "github.copilot-chat"
+vscode "midouest.playdate-debug"
+vscode "sumneko.lua"

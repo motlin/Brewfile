@@ -5,6 +5,7 @@ default:
 # Dump current Homebrew packages to Brewfile with descriptions
 dump:
     brew bundle dump --force --describe
+    sed -i '' 's/, args: { appdir: "\/Applications" }//' Brewfile
 
 # Install all dependencies from Brewfile
 install:

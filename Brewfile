@@ -5,13 +5,20 @@ tap "homebrew/bundle"
 tap "mattt/tap"
 tap "mvndaemon/mvnd"
 tap "render-oss/render"
+tap "steipete/tap"
 tap "suzuki-shunsuke/cmdx"
 # Run your GitHub Actions locally
 brew "act"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Static checker for GitHub Actions workflow files
+brew "actionlint"
 # Declarative CLI Version manager
 brew "aqua"
 # Record and share terminal sessions
 brew "asciinema"
+# Code searching, linting, rewriting
+brew "ast-grep"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Cloudflare Tunnel client (formerly Argo Tunnel)
@@ -44,6 +51,8 @@ brew "duti"
 brew "exiftool"
 # Modern, maintained replacement for ls
 brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # Firebase command-line tools
@@ -64,6 +73,10 @@ brew "git-delta"
 brew "git-filter-repo"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # Command-line interface for Hetzner Cloud
 brew "hcloud"
 # Improved top (interactive process viewer)
@@ -76,6 +89,8 @@ brew "jq"
 brew "just"
 # Pager program similar to more
 brew "less"
+# Move files and folders to the trash
+brew "macos-trash"
 # Mac App Store command-line interface
 brew "mas"
 # Tool for working with usage-spec CLIs
@@ -86,6 +101,8 @@ brew "mise"
 brew "monolith"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils", link: false
+# Open-source, cross-platform JavaScript runtime environment
+brew "node@22"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
 # Parallel gzip
@@ -112,12 +129,12 @@ brew "screen"
 brew "sentry-cli"
 # Autoformat shell script source code
 brew "shfmt"
+# CLI and dbus interface for WhisperSystems/libsignal-service-java
+brew "signal-cli"
 # Feature-rich console based todo list manager
 brew "task"
 # Terminal multiplexer
 brew "tmux"
-# CLI tool that moves files or folder to the trash
-brew "trash", link: true
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Extremely fast Python package installer and resolver, written in Rust
@@ -134,10 +151,20 @@ brew "yamllint"
 brew "yarn"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Find security issues in GitHub Actions setups
+brew "zizmor"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Google CLI for Gmail, Calendar, Drive, and Contacts
+brew "steipete/tap/gogcli"
+# Modern Go client + CLI for the Google Places API (New)
+brew "steipete/tap/goplaces"
+# Send and read iMessage / SMS from the terminal
+brew "steipete/tap/imsg"
+# Fast CLI for Apple Reminders
+brew "steipete/tap/remindctl"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
@@ -167,6 +194,8 @@ cask "font-meslo-lg-nerd-font"
 cask "font-source-code-pro"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "gcloud-cli"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # Web browser
 cask "google-chrome"
 # Graphically shows disk usage within a file system
@@ -240,7 +269,6 @@ mas "iA Writer", id: 775737590
 mas "Name Mangler 3", id: 603637384
 mas "Things", id: 904280696
 mas "Windows App", id: 1295203466
-mas "Xcode", id: 497799835
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "midouest.playdate-debug"

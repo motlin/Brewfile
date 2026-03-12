@@ -169,6 +169,10 @@ brew "steipete/tap/remindctl"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# Intelligent flash cards
+cask "anki"
+# Online backup service
+cask "backblaze"
 # 3D model slicing software for 3D printers, maintained by Bambu Lab
 cask "bambu-studio"
 # Virtual Audio Driver
@@ -183,6 +187,10 @@ cask "discord"
 cask "docker-desktop"
 # Find and remove unwanted duplicate files and folders
 cask "duplicate-file-finder"
+# Control your Elgato devices
+cask "elgato-control-center"
+# Assign actions to your Elgato Stream Deck keys
+cask "elgato-stream-deck"
 # Calendar software
 cask "fantastical"
 cask "font-fira-mono-nerd-font"
@@ -254,14 +262,21 @@ cask "stats"
 cask "steam"
 # Customise mouse buttons, wheels and cursor speed
 cask "steermouse"
+# Mesh VPN
+cask "tailscale"
+# SSH client and terminal
+cask "termius"
 # Web browser focusing on security
 cask "tor-browser"
 # Disk encryption software focusing on security based on TrueCrypt
 cask "veracrypt"
 # Open-source code editor
 cask "visual-studio-code"
+# Voice-to-text dictation
+cask "wispr-flow"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
 mas "Duplicate File Finder", id: 1032755628
 mas "GarageBand", id: 682658836

@@ -244,8 +244,6 @@ cask "qlmarkdown"
 cask "qlstephen"
 # Thumbnails, static previews, cover art and metadata for video files
 cask "qlvideo"
-# Quick Look plugin for JSON files
-cask "quicklook-json"
 # Quick Look generator for Adobe Swatch Exchange files
 cask "quicklookase"
 # Control your tools with a few keystrokes

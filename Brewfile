@@ -109,8 +109,6 @@ brew "p7zip"
 brew "pigz"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
-# Fast, disk space efficient package manager
-brew "pnpm"
 # Show ps output as a tree
 brew "pstree"
 # Interpreted, interactive, object-oriented programming language
@@ -131,6 +129,8 @@ brew "sentry-cli"
 brew "shfmt"
 # CLI and dbus interface for WhisperSystems/libsignal-service-java
 brew "signal-cli"
+# Easiest, most secure way to use WireGuard and 2FA
+brew "tailscale"
 # Feature-rich console based todo list manager
 brew "task"
 # Terminal multiplexer
@@ -142,7 +142,7 @@ brew "uv"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Tool for creating isolated virtual python environments
-brew "virtualenv"
+brew "virtualenv", link: false
 # Internet file retriever
 brew "wget"
 # Linter for YAML files
@@ -157,21 +157,15 @@ brew "zizmor"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Google CLI for Gmail, Calendar, Drive, and Contacts
-brew "steipete/tap/gogcli"
-# Modern Go client + CLI for the Google Places API (New)
-brew "steipete/tap/goplaces"
 # Send and read iMessage / SMS from the terminal
-brew "steipete/tap/imsg"
+brew "steipete/tap/imsg", trusted: true
 # Fast CLI for Apple Reminders
-brew "steipete/tap/remindctl"
+brew "steipete/tap/remindctl", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
-# Intelligent flash cards
-cask "anki"
-# Online backup service
+# Data backup and storage service
 cask "backblaze"
 # 3D model slicing software for 3D printers, maintained by Bambu Lab
 cask "bambu-studio"
@@ -187,7 +181,7 @@ cask "discord"
 cask "docker-desktop"
 # Find and remove unwanted duplicate files and folders
 cask "duplicate-file-finder"
-# Control your Elgato devices
+# Control your Elgato key lights
 cask "elgato-control-center"
 # Assign actions to your Elgato Stream Deck keys
 cask "elgato-stream-deck"
@@ -222,8 +216,6 @@ cask "intellij-idea"
 cask "iterm2"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
-# Menu bar manager
-cask "jordanbaird-ice"
 # Open-source keystroke visualiser
 cask "keycastr"
 # Animated screen capture application
@@ -243,7 +235,7 @@ cask "qlmarkdown"
 # Quick Look plugin for plaintext files without an extension
 cask "qlstephen"
 # Thumbnails, static previews, cover art and metadata for video files
-cask "qlvideo"
+cask "quicklook-video"
 # Quick Look generator for Adobe Swatch Exchange files
 cask "quicklookase"
 # Control your tools with a few keystrokes
@@ -260,18 +252,20 @@ cask "stats"
 cask "steam"
 # Customise mouse buttons, wheels and cursor speed
 cask "steermouse"
-# Mesh VPN
-cask "tailscale"
-# SSH client and terminal
+# SSH client
 cask "termius"
+# Menu bar manager
+cask "thaw"
 # Web browser focusing on security
 cask "tor-browser"
 # Disk encryption software focusing on security based on TrueCrypt
 cask "veracrypt"
 # Open-source code editor
 cask "visual-studio-code"
-# Voice-to-text dictation
+# Voice-to-text dictation with AI-powered auto-editing
 cask "wispr-flow"
+# Photo viewer, image manager, image resiser and more
+cask "xnviewmp"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Amphetamine", id: 937984704
@@ -280,9 +274,11 @@ mas "Duplicate File Finder", id: 1032755628
 mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
 mas "Name Mangler 3", id: 603637384
+mas "Tailscale", id: 1475387142
 mas "Things", id: 904280696
 mas "Windows App", id: 1295203466
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "midouest.playdate-debug"
 vscode "sumneko.lua"
+npm "@openai/codex"

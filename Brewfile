@@ -83,6 +83,8 @@ brew "hcloud"
 brew "htop"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
+# Duplicate file finder and an enhanced fork of 'fdupes'
+brew "jdupes"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Handy way to save and run project-specific commands
@@ -107,6 +109,8 @@ brew "node@22"
 brew "p7zip"
 # Parallel gzip
 brew "pigz"
+# Pins GitHub Actions to full hashes and versions
+brew "pinact"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Show ps output as a tree
@@ -115,6 +119,8 @@ brew "pstree"
 brew "python@3.11"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
+# Find duplicate files based on content (NOT file names)
+brew "rdfind"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Utility that provides fast incremental file transfer
@@ -183,8 +189,6 @@ cask "docker-desktop"
 cask "duplicate-file-finder"
 # Control your Elgato key lights
 cask "elgato-control-center"
-# Assign actions to your Elgato Stream Deck keys
-cask "elgato-stream-deck"
 # Calendar software
 cask "fantastical"
 cask "font-fira-mono-nerd-font"
@@ -274,9 +278,11 @@ mas "Duplicate File Finder", id: 1032755628
 mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
 mas "Name Mangler 3", id: 603637384
+mas "NextDNS", id: 1464122853
 mas "Tailscale", id: 1475387142
 mas "Things", id: 904280696
 mas "Windows App", id: 1295203466
+mas "Xcode", id: 497799835
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "midouest.playdate-debug"

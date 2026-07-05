@@ -19,7 +19,7 @@ cleanup:
 upgrade:
     brew update --quiet
     brew outdated
-    brew upgrade --quiet
+    brew upgrade --quiet --yes
     brew cleanup --quiet
     uv tool upgrade --all
     mise list --global | grep "latest" | awk '{print $1}' | grep -v "Tool" | xargs -I{} mise upgrade {}

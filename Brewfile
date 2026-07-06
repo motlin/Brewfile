@@ -238,8 +238,6 @@ cask "qlcolorcode"
 cask "qlmarkdown"
 # Quick Look plugin for plaintext files without an extension
 cask "qlstephen"
-# Thumbnails, static previews, cover art and metadata for video files
-cask "quicklook-video"
 # Quick Look generator for Adobe Swatch Exchange files
 cask "quicklookase"
 # Control your tools with a few keystrokes

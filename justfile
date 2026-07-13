@@ -1,3 +1,5 @@
+export MISE_MINIMUM_RELEASE_AGE_EXCLUDES := "npm:@openai/codex,npm:@anthropic-ai/claude-code"
+
 # List all available brew-related recipes
 default:
     @just --list --unsorted

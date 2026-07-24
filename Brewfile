@@ -1,12 +1,7 @@
-tap "abhinav/tap"
 tap "claui/whence"
-tap "cloudflare/cloudflare"
 tap "homebrew/bundle"
 tap "mattt/tap"
-tap "mvndaemon/mvnd"
-tap "render-oss/render"
 tap "steipete/tap"
-tap "suzuki-shunsuke/cmdx"
 # Run your GitHub Actions locally
 brew "act"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -213,7 +208,7 @@ cask "iina"
 # iPhone management application
 cask "imazing"
 # MCP server app for your application
-cask "mattt/tap/imcp"
+cask "mattt/tap/imcp", trusted: true
 # Java IDE by JetBrains
 cask "intellij-idea"
 # Terminal emulator as alternative to Apple's Terminal app

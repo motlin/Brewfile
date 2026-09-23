@@ -31,3 +31,7 @@ upgrade:
 # Show outdated packages
 outdated:
     brew outdated
+
+# pre-commit run just-fmt --all-files
+format:
+    pre-commit run just-fmt --all-files

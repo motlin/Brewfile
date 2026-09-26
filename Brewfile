@@ -271,7 +271,6 @@ mas "Duplicate File Finder", id: 1032755628
 mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
 mas "Name Mangler 3", id: 603637384
-mas "NextDNS", id: 1464122853
 mas "Tailscale", id: 1475387142
 mas "Things", id: 904280696
 mas "Windows App", id: 1295203466

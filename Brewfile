@@ -124,8 +124,6 @@ brew "ripgrep"
 brew "rsync"
 # Fast and accurate code counter with complexity and COCOMO estimates
 brew "scc"
-# Command-line utility to interact with Sentry
-brew "sentry-cli"
 # Autoformat shell script source code
 brew "shfmt"
 # CLI and dbus interface for WhisperSystems/libsignal-service-java
@@ -231,6 +229,8 @@ cask "qlstephen"
 cask "quicklookase"
 # Control your tools with a few keystrokes
 cask "raycast"
+# Command-line utility to interact with Sentry
+cask "sentry-cli"
 # Instant messaging application focusing on security
 cask "signal"
 # Team communication and collaboration software
@@ -269,7 +269,5 @@ mas "Tailscale", id: 1475387142
 mas "Things", id: 904280696
 mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
-vscode "github.copilot"
-vscode "github.copilot-chat"
 vscode "midouest.playdate-debug"
 vscode "sumneko.lua"

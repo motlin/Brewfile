@@ -1,9 +1,9 @@
-tap "claui/whence"
-tap "homebrew/bundle"
 tap "mattt/tap"
 tap "steipete/tap"
 # Run your GitHub Actions locally
 brew "act"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Static checker for GitHub Actions workflow files
@@ -74,6 +74,8 @@ brew "go"
 brew "graphviz"
 # Command-line interface for Hetzner Cloud
 brew "hcloud"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
 # Improved top (interactive process viewer)
 brew "htop"
 # Tools and libraries to manipulate images in select formats
@@ -122,8 +124,6 @@ brew "ripgrep"
 brew "rsync"
 # Fast and accurate code counter with complexity and COCOMO estimates
 brew "scc"
-# Terminal multiplexer with VT100/ANSI terminal emulation
-brew "screen"
 # Command-line utility to interact with Sentry
 brew "sentry-cli"
 # Autoformat shell script source code
@@ -134,8 +134,6 @@ brew "signal-cli"
 brew "tailscale"
 # Feature-rich console based todo list manager
 brew "task"
-# Terminal multiplexer
-brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Extremely fast Python package installer and resolver, written in Rust
@@ -148,8 +146,6 @@ brew "virtualenv", link: false
 brew "wget"
 # Linter for YAML files
 brew "yamllint"
-# JavaScript package manager
-brew "yarn"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
 # Find security issues in GitHub Actions setups
@@ -279,4 +275,3 @@ vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "midouest.playdate-debug"
 vscode "sumneko.lua"
-npm "@openai/codex"

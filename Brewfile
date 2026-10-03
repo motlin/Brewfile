@@ -130,8 +130,6 @@ brew "sentry-cli"
 brew "shfmt"
 # CLI and dbus interface for WhisperSystems/libsignal-service-java
 brew "signal-cli"
-# Easiest, most secure way to use WireGuard and 2FA
-brew "tailscale"
 # Feature-rich console based todo list manager
 brew "task"
 # Display directories as trees (with optional color/HTML output)

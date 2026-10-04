@@ -276,3 +276,4 @@ mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
 vscode "midouest.playdate-debug"
 vscode "sumneko.lua"
+go "github.com/caddyserver/xcaddy/cmd/xcaddy"

@@ -1,4 +1,5 @@
 tap "mattt/tap"
+tap "stablyai/orca"
 tap "steipete/tap"
 # Run your GitHub Actions locally
 brew "act"
@@ -217,6 +218,8 @@ cask "macfuse"
 cask "musescore"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# IDE for orchestrating AI coding agents across terminals and worktrees
+cask "stablyai/orca/orca", trusted: true
 # Quick Look plug-in that renders source code with syntax highlighting
 cask "qlcolorcode"
 # Quick Look generator for Markdown files

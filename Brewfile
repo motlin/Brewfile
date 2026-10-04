@@ -265,7 +265,11 @@ mas "AutoMounter", id: 1160435653
 mas "Duplicate File Finder", id: 1032755628
 mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
+mas "iMovie", id: 408981434
+mas "Keynote", id: 361285480
 mas "Name Mangler 3", id: 603637384
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
 mas "Tailscale", id: 1475387142
 mas "Things", id: 904280696
 mas "Windows App", id: 1295203466

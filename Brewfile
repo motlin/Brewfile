@@ -2,8 +2,6 @@ tap "mattt/tap"
 tap "steipete/tap"
 # Run your GitHub Actions locally
 brew "act"
-# Bourne-Again SHell, a UNIX command interpreter
-brew "bash"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Static checker for GitHub Actions workflow files
@@ -14,6 +12,8 @@ brew "aqua"
 brew "asciinema"
 # Code searching, linting, rewriting
 brew "ast-grep"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Cloudflare Tunnel client (formerly Argo Tunnel)
@@ -28,8 +28,6 @@ brew "coreutils"
 brew "curl"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Duplicate file utility
 brew "czkawka"
 # Open source multi-tool for exploring and publishing data
@@ -92,8 +90,6 @@ brew "less"
 brew "macos-trash"
 # Mac App Store command-line interface
 brew "mas"
-# Tool for working with usage-spec CLIs
-brew "usage"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
 # CLI tool for saving complete web pages as a single HTML file
@@ -116,6 +112,8 @@ brew "pstree"
 brew "python@3.11"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Find duplicate files based on content (NOT file names)
 brew "rdfind"
 # Search tool like grep and The Silver Searcher
@@ -132,6 +130,8 @@ brew "signal-cli"
 brew "task"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Tool for working with usage-spec CLIs
+brew "usage"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Vi 'workalike' with many additional features

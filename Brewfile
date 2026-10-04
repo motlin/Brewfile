@@ -109,10 +109,6 @@ brew "pipx"
 # Show ps output as a tree
 brew "pstree"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
-# Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
 # Find duplicate files based on content (NOT file names)
 brew "rdfind"

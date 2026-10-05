@@ -198,12 +198,8 @@ cask "iina"
 cask "imazing"
 # MCP server app for your application
 cask "mattt/tap/imcp", trusted: true
-# Java IDE by JetBrains
-cask "intellij-idea"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# JetBrains tools manager
-cask "jetbrains-toolbox"
 # Open-source keystroke visualiser
 cask "keycastr"
 # Animated screen capture application

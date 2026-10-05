@@ -161,8 +161,6 @@ cask "1password-cli"
 cask "backblaze"
 # 3D model slicing software for 3D printers, maintained by Bambu Lab
 cask "bambu-studio"
-# Virtual Audio Driver
-cask "blackhole-2ch"
 # Disk space visualiser
 cask "daisydisk"
 # Browser for SQLite databases

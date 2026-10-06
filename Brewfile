@@ -200,6 +200,8 @@ cask "imazing"
 cask "mattt/tap/imcp", trusted: true
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
 # Open-source keystroke visualiser
 cask "keycastr"
 # Animated screen capture application

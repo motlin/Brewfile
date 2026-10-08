@@ -1,5 +1,4 @@
 tap "mattt/tap"
-tap "stablyai/orca"
 tap "steipete/tap"
 # Run your GitHub Actions locally
 brew "act"
@@ -31,6 +30,8 @@ brew "coreutils"
 brew "curl"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Duplicate file utility
 brew "czkawka"
 # Open source multi-tool for exploring and publishing data
@@ -38,7 +39,7 @@ brew "datasette"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
 # Select default apps for documents and URL schemes on macOS
@@ -89,6 +90,14 @@ brew "jq"
 brew "just"
 # Pager program similar to more
 brew "less"
+# Powerful, lightweight programming language
+brew "lua"
+# Language Server for the Lua language
+brew "lua-language-server"
+# Powerful, lightweight programming language
+brew "lua@5.4"
+# Package manager for the Lua programming language
+brew "luarocks"
 # Move files and folders to the trash
 brew "macos-trash"
 # Mac App Store command-line interface
@@ -105,14 +114,10 @@ brew "node@22"
 brew "p7zip"
 # Parallel gzip
 brew "pigz"
-# Pins GitHub Actions to full hashes and versions
-brew "pinact"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Show ps output as a tree
 brew "pstree"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Find duplicate files based on content (NOT file names)
 brew "rdfind"
 # Search tool like grep and The Silver Searcher
@@ -121,10 +126,14 @@ brew "ripgrep"
 brew "rsync"
 # Fast and accurate code counter with complexity and COCOMO estimates
 brew "scc"
+# Command-line utility to interact with Sentry
+brew "sentry-cli"
 # Autoformat shell script source code
 brew "shfmt"
 # CLI and dbus interface for WhisperSystems/libsignal-service-java
 brew "signal-cli"
+# Opinionated Lua code formatter
+brew "stylua"
 # Feature-rich console based todo list manager
 brew "task"
 # Display directories as trees (with optional color/HTML output)
@@ -133,6 +142,8 @@ brew "tree"
 brew "usage"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Your CLI home video recorder
+brew "vhs"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Tool for creating isolated virtual python environments
@@ -198,8 +209,6 @@ cask "iina"
 cask "imazing"
 # MCP server app for your application
 cask "mattt/tap/imcp", trusted: true
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
 # Open-source keystroke visualiser
@@ -214,8 +223,6 @@ cask "macfuse"
 cask "musescore"
 # Open-source software for live streaming and screen recording
 cask "obs"
-# IDE for orchestrating AI coding agents across terminals and worktrees
-cask "stablyai/orca/orca", trusted: true
 # Quick Look plug-in that renders source code with syntax highlighting
 cask "qlcolorcode"
 # Quick Look generator for Markdown files
@@ -226,8 +233,6 @@ cask "qlstephen"
 cask "quicklookase"
 # Control your tools with a few keystrokes
 cask "raycast"
-# Command-line utility to interact with Sentry
-cask "sentry-cli"
 # Instant messaging application focusing on security
 cask "signal"
 # Team communication and collaboration software
@@ -244,16 +249,10 @@ cask "steermouse"
 cask "termius"
 # Menu bar manager
 cask "thaw"
-# Web browser focusing on security
-cask "tor-browser"
 # Disk encryption software focusing on security based on TrueCrypt
 cask "veracrypt"
-# Open-source code editor
-cask "visual-studio-code"
 # Voice-to-text dictation with AI-powered auto-editing
 cask "wispr-flow"
-# Photo viewer, image manager, image resiser and more
-cask "xnviewmp"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Amphetamine", id: 937984704
@@ -261,15 +260,8 @@ mas "AutoMounter", id: 1160435653
 mas "Duplicate File Finder", id: 1032755628
 mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
-mas "iMovie", id: 408981434
-mas "Keynote", id: 361285480
-mas "Name Mangler 3", id: 603637384
-mas "Numbers", id: 361304891
-mas "Pages", id: 361309726
 mas "Tailscale", id: 1475387142
 mas "Things", id: 904280696
 mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
-vscode "midouest.playdate-debug"
-vscode "sumneko.lua"
 go "github.com/caddyserver/xcaddy/cmd/xcaddy"

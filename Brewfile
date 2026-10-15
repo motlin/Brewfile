@@ -32,6 +32,8 @@ brew "curl"
 brew "ffmpeg"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.15"
 # Duplicate file utility
 brew "czkawka"
 # Open source multi-tool for exploring and publishing data
@@ -110,6 +112,8 @@ brew "monolith"
 brew "moreutils", link: false
 # Open-source, cross-platform JavaScript runtime environment
 brew "node@22"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
 # Parallel gzip

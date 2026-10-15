@@ -26,7 +26,6 @@ upgrade:
     brew cleanup --quiet
     uv tool upgrade --all
     mise list --global | awk '$NF ~ /^[0-9]/ {print $1}' | xargs -I{} mise upgrade --bump {}
-    gcloud components update --quiet
 
 # Show outdated packages
 outdated:
